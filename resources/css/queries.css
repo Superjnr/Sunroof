@@ -1,0 +1,314 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .first-section {
+        width: 100%;
+       padding: 0 3%;
+    }
+
+    .reason {
+        width: 100%;
+        padding: 0 3%; 
+    }
+
+    .reason p {
+        font-size: 15px;
+        line-height: 3em;
+       }
+
+}
+
+
+
+
+/* Small tablets to big tablet : from 970px to 1023px */
+@media only screen and (max-width: 1023px) {
+.first-section {
+    width: 100%;
+   padding: 0 3%;
+}
+
+
+.reason {
+    width: 100%;
+    padding: 0 3%; 
+}
+
+
+
+.first-section h3{
+    color: #e67e22;
+    font-weight: 700;
+    font-size: 18px;
+} 
+
+.first-section p {
+    color:rgb(26, 26, 64) ;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.merit{
+    position: relative; bottom: 60px; right: 5px;
+}
+
+.reason p {
+    font-size: 12px;
+    line-height: 3em;
+   }
+
+
+}
+
+
+/* Small phones to small tablets : from 930px to 970px */
+@media only screen and (max-width: 970px) {
+
+    .first-section h3{
+        color: #e67e22;
+        font-weight: 700;
+        font-size: 18px;
+    } 
+    
+    .first-section p {
+        color:rgb(26, 26, 64) ;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .reason p {
+        font-size: 12px;
+        line-height: 3em;
+       }
+
+       .merit{
+        position: relative; bottom: 55px; right: 10px;
+    }
+    
+
+}
+/* Small phones to small tablets : from 767px to 930px */
+@media only screen and (max-width: 930px) {
+    .button:link,
+    .button:visited {
+        text-decoration: none;
+        background: linear-gradient(10deg, #e67e22, yellow);
+        color: white;
+        padding: 4px;
+        width: 40%;
+        border-radius: 3px;
+        font-size: 18px;
+        margin-top: 40px;
+        transition: background-color 1s ;
+    }
+    
+    .button:hover,
+    .button:active {  
+        text-decoration: none;
+        background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+        color: white;
+        padding: 4px;
+        width:40%;
+        font-size: 18px;
+        border-radius: 3px;
+        margin-top: 40px;
+    }
+
+    .first-section input[type=text] {
+        background-color: white;
+        border:1px solid rgb(214, 209, 209);
+        padding: 4px;
+        font-size: 18px;
+        width: 120px;
+        border-radius: 3px;
+        margin-top: 40px;
+     }
+
+     .last-section input[type=text] {
+        background-color: white;
+        border:1px solid rgb(214, 209, 209);
+        padding: 4px;
+        font-size: 18px;
+        width: 120px;
+        border-radius: 3px;
+        margin-top: 40px;
+     }
+
+     .reason p {
+        font-size: 11px;
+        line-height: 3.3em;
+       }
+
+       .merit{
+        position: relative; bottom: 35px; right:10px;
+    }
+
+}
+
+/* Small phones to small tablets : from 481px to 767px */
+@media only screen and (max-width: 768px) {
+    .button:link,
+    .button:visited {
+        text-decoration: none;
+        background: linear-gradient(10deg, #e67e22, yellow);
+        color: white;
+        padding: 4px;
+        width: 40%;
+        border-radius: 3px;
+        font-size: 18px;
+        margin-top: 40px;
+        transition: background-color 1s ;
+    }
+    
+    .button:hover,
+    .button:active {  
+        text-decoration: none;
+        background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+        color: white;
+        padding: 4px;
+        width:40%;
+        font-size: 18px;
+        border-radius: 3px;
+        margin-top: 40px;
+    }
+
+    .first-section input[type=text] {
+        background-color: white;
+        border:1px solid rgb(214, 209, 209);
+        padding: 4px;
+        font-size: 18px;
+        width: 120px;
+        border-radius: 3px;
+        margin-top: 40px;
+     }
+
+     .last-section input[type=text] {
+        background-color: white;
+        border:1px solid rgb(214, 209, 209);
+        padding: 4px;
+        font-size: 18px;
+        width: 120px;
+        border-radius: 3px;
+        margin-top: 40px;
+     }
+
+     .merit{
+        position: relative; bottom: 35px; right: 10px;
+    }
+
+}
+
+
+
+/* Small phones : from 0 to 480px */
+@media only screen and (max-width: 480px) {
+      .first-section h3{
+        color: #e67e22;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        position: relative; top: 50px; right: 100px;
+    } 
+    
+    .first-section p {
+        color:rgb(26, 26, 64) ;
+        margin-top: 5px;
+        font-size: 15px;
+        text-align: center;
+        float: right;
+        position: relative; top: 24px; right: 15px;
+    }
+    .first-section h1 {
+        position: relative; top: 15px;
+        color: rgb(26, 26, 64);
+    }
+    .first-section input[type=text] {
+        background-color: white;
+        border: 1px solid rgb(214, 209, 209);
+        padding:  7px;
+        border-radius: 3px;
+        margin-top: 35px;
+        font-size: 14px;
+    }
+.button:link,
+.button:visited {
+    text-decoration: none;
+    background: linear-gradient(10deg, #e67e22, yellow);
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 40px;
+    position: relative; left: 15px;
+    transition: background-color 1s;
+}
+
+.button:hover,
+.button:active {
+    text-decoration: none;
+    background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+    color: white;
+    padding: 6px;
+    border-radius: 3px;
+    margin-top: 40px;
+    position: relative; left: 15px;
+}    
+.second-section h2 {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    color: rgb(26, 26, 64);
+}
+.second-section p {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.third-section h1 {
+    color: #e67e22;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.reason i {
+    display: none;
+}
+.reason p {
+    font-size: 17px;
+    line-height: 3em;
+    text-align: center;
+}
+
+.sunroof {
+    color: #e67e22;
+    display: none;
+}
+.cc {
+    color: rgb(162, 158, 158);
+    display: none;
+}
+.sunroof .btn:link,
+.sunroof .btn:visited {
+    text-decoration: none;
+    background: linear-gradient(10deg, #e67e22, yellow);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    top: -25px;
+    left: 130px;
+    transition: background-color 1s;
+}
+
+.sunroof .btn:hover,
+.sunroof .btn:active {
+    text-decoration: none;
+    background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    top: -25px;
+    left: 130px;
+}
+}

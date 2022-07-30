@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: white;
+    color: black;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/*  FIRST SECTION   ==================================================================== */
+.first-section {
+    background-image: url(img/background\ gradient.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    border-top: 4px solid #e67e22;
+}
+
+.first-section img {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 30px;
+}
+
+.first-section p {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+}
+
+.first-section h3 {
+    color: #e67e22;
+    font-weight: 700;
+}
+
+.first-section h1 {
+    margin-top: 120px;
+    color: rgb(26, 26, 64);
+}
+
+.first-section h2 {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.icon {
+    color: #e67e22;
+    font-size: 30px;
+}
+
+.first-section input[type=text] {
+    background-color: white;
+    border: 1px solid rgb(214, 209, 209);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.merit {
+    position: relative;
+    bottom: 60px;
+}
+
+/*  BUTTON   ==================================================================== */
+.button:link,
+.button:visited {
+    text-decoration: none;
+    background: linear-gradient(10deg, #e67e22, yellow);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 40px;
+    transition: background-color 1s;
+}
+
+.button:hover,
+.button:active {
+    text-decoration: none;
+    background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.btn:link,
+.btn:visited {
+    text-decoration: none;
+    background: linear-gradient(10deg, #e67e22, yellow);
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    top: 22px;
+    right: 10px;
+    transition: background-color 1s;
+}
+
+.btn:hover,
+.btn:active {
+    text-decoration: none;
+    background: linear-gradient(10deg, #cf6d17, rgb(223, 223, 112));
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    position: relative;
+    top: 22px;
+}
+
+
+
+
+/*  SECOND SECTION  ==================================================================== */
+.second-section {
+    text-align: center;
+}
+
+.second-section h2 {
+    margin-top: 70px;
+    color: rgb(26, 26, 64);
+}
+
+
+.second-section p {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.second-section h4 {
+    color: #e67e22;
+}
+
+/*==========THIRD SECTION========================*/
+.third-section {
+    text-align: center;
+    background-color: #f7e8db5e;
+}
+
+.third-section h1 {
+    color: #e67e22;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.third-section h6 {
+    font-weight: 700;
+    margin-top: -40px;
+}
+
+.third-section button {
+    margin-top: 100px;
+}
+
+.third-section p {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.third-section h3 {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+}
+
+/*=============SAVINGS 2===========*/
+.savings-2 {
+    text-align: center;
+    margin-top: 150px;
+    line-height: 1em;
+}
+
+
+.savings-2 p {
+    color: rgb(26, 26, 64);
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+.savings-2 h3 {
+    color: rgb(26, 26, 64);
+    line-height: 2em;
+}
+
+.bill {
+    position: relative;
+    top: 60px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+#slider {
+    border-radius: 3px;
+    height: 4px;
+    color: #e67e22;
+}
+
+.bill2 {
+    margin-top: 20px;
+    background: rgb(232, 243, 232);
+    padding: 20px;
+    line-height: 30px;
+    position: relative;
+    top: 60px;
+}
+
+.block {
+    background: rgb(232, 243, 232);
+    display: inline-block;
+}
+
+.block span {
+    color: rgb(59, 150, 59);
+}
+
+.block h5 {
+    color: rgb(167, 37, 37);
+}
+
+/*=============REASON===========*/
+.reason {
+    background-image: url(img/background.png);
+    margin-top: 200px;
+}
+
+.reason h2 {
+    color: rgb(26, 26, 64);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reason p {
+    font-size: 17px;
+    line-height: 2em;
+}
+
+.sunroof {
+    color: #e67e22;
+}
+
+.cc {
+    color: rgb(162, 158, 158);
+}
+
+/*=============LAST SECTION===========*/
+
+.last-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.last-section input[type=text] {
+    background-color: white;
+    border: 1px solid rgb(214, 209, 209);
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+.last-section h2 {
+    color: rgb(26, 26, 64);
+}
+
+.last-section p {
+    font-size: 14px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
