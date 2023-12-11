@@ -1,0 +1,214 @@
+/**************************/
+/* Below 1276 */
+/**************************/
+@media (max-width: 79.75em) {
+  .hero {
+    gap: 23rem;
+  }
+}
+/**************************/
+/* Below 1256 */
+/**************************/
+@media (max-width: 78.5em) {
+  .hero {
+    gap: 20rem;
+  }
+}
+/**************************/
+/* Below 1226 */
+/**************************/
+@media (max-width: 76.5em) {
+  .hero {
+    gap: 18rem;
+  }
+}
+/**************************/
+/* Below 1200 */
+/**************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/**************************/
+/* Below 1100 */
+/**************************/
+@media (max-width: 68.75em) {
+  .hero {
+    gap: 15rem;
+  }
+}
+/**************************/
+/* Below 1062 */
+/**************************/
+@media (max-width: 66.375em) {
+  .hero {
+    gap: 12rem;
+  }
+  .section-hero {
+    height: 70vh;
+  }
+}
+/**************************/
+/* Below 1024 */
+/**************************/
+@media (max-width: 64em) {
+  .hero {
+    gap: 10rem;
+  }
+  .section-hero {
+    height: 60vh;
+  }
+  .hero img {
+    height: 90%;
+    margin-top: -6rem;
+    margin-left: 5rem;
+  }
+  .section-hero input[type="text"] {
+    padding: 1.4rem 2.4rem;
+  }
+}
+/**************************/
+/* Below 988 */
+/**************************/
+@media (max-width: 61.75em) {
+  .hero {
+    gap: 8rem;
+  }
+  .section-hero .btn-savings:link,
+  .section-hero .btn-savings:visited {
+    padding: 1.6rem 2.4rem;
+  }
+  .section-switch .grid {
+    column-gap: 4rem;
+  }
+}
+/**************************/
+/* Below 944 */
+/**************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .switch img {
+    height: 50%;
+  }
+}
+/**************************/
+/* Below 860 */
+/**************************/
+@media (max-width: 53.75em) {
+  .hero {
+    gap: 4rem;
+  }
+}
+/**************************/
+/* Below 840 */
+/**************************/
+@media (max-width: 52.5em) {
+  .section-why p {
+    font-size: 1.5rem;
+  }
+  .hero img {
+    height: 80%;
+    margin-top: -4rem;
+  }
+  .section-hero .btn-savings:link,
+  .section-hero .btn-savings:visited {
+    padding: 1.6rem 2rem;
+  }
+  .section-hero input[type="text"] {
+    padding: 1.4rem 2rem;
+  }
+}
+/* *********************************** */
+/* BELOW 768px 
+/* *********************************** */
+@media (max-width: 48em) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero img {
+    clip-path: circle();
+    height: 90%;
+  }
+  .section-hero {
+    height: 100vh;
+  }
+  .merit {
+    margin-top: -15rem;
+  }
+  .section-why {
+    display: none;
+  }
+}
+/* *********************************** */
+/* BELOW 640px 
+/* *********************************** */
+@media (max-width: 40em) {
+  .section-switch .grid {
+    display: block;
+    margin: 0 auto;
+  }
+  .section-save .grid {
+    column-gap: 3rem;
+  }
+  .hero img {
+    margin-left: 0rem;
+  }
+  .section-explore h2 {
+    font-size: 5rem;
+  }
+}
+/* *********************************** */
+/* BELOW 448px 
+/* *********************************** */
+@media (max-width: 28em) {
+  .section-go input[type="text"] {
+    padding: 1.4rem 2.4rem;
+    font-size: 1.6rem;
+  }
+  .section-go .btn-savings:link,
+  .section-go .btn-savings:visited {
+    padding: 1.5rem 2.4rem;
+  }
+}
+/* *********************************** */
+/* BELOW 422px 
+/* *********************************** */
+@media (max-width: 26.375em) {
+  .section-go input[type="text"] {
+    padding: 1.4rem 2rem;
+    font-size: 1.6rem;
+  }
+  .section-go .btn-savings:link,
+  .section-go .btn-savings:visited {
+    padding: 1.5rem 2rem;
+  }
+  .section-go .container {
+    padding: 0 2.4rem;
+  }
+}
+/* *********************************** */
+/* BELOW 396px 
+/* *********************************** */
+@media (max-width: 24.75em) {
+  .section-go input[type="text"] {
+    padding: 1.4rem 1.4rem;
+    font-size: 1.6rem;
+  }
+  .section-go .btn-savings:link,
+  .section-go .btn-savings:visited {
+    padding: 1.5rem 1.4rem;
+  }
+  .section-go .container {
+    padding: 0 1.2rem;
+  }
+  .hero {
+    padding: 5.2rem 1.6rem 3.2rem 1.6rem;
+  }
+  .header {
+    padding: 1.2rem 3rem;
+  }
+}
